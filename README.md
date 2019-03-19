@@ -33,7 +33,7 @@ compatibility issues, and many more are anticipated
 
 ```
 1) Obtain a working python3 installing
-2) pip3 install Django=2.0.6
+2) pip3 install Django=2.0.6 (Incase if you are using proxy use : $sudo -H pip3 install Django==x.x.x --proxy="you_proxy_name:port" )
 3) Run the ./cleanup.sh script
 4) python3 manage.py createsuperuser
 5) Run the ./run.sh script
