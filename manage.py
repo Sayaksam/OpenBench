@@ -13,3 +13,8 @@ if __name__ == "__main__":
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(sys.argv)
+    
+    #set up virtual environment following the steps:
+    # $pip install virtualenv
+    # $virtualenv my_python (create a directory for virtual environment named my_python)
+    # $source my_python/bin/activate
